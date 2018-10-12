@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>TODO LIST APP</title>
+	<script
+  src="https://code.jquery.com/jquery-2.2.4.js"
+  integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" type="text/css" href="/static/todo.css"><!-- 
+  <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='todo.css') }}"> -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body style="color: red;">
+<div id="container">
+	<h1>TO-DO LIST<i class="fa fa-plus" aria-hidden="true"></i></h1>
+	<input type="text" placeholder="Add New Todo">
+	<ul>
+		<li><span><i class="fa fa-trash"></i></span>Buy a Wand</li>
+		<li><span><i class="fa fa-trash"></i></span>Fight Malfoy</li>
+		<li><span><i class="fa fa-trash"></i></span>Buy Robes</li>
+		<li><span><i class="fa fa-trash"></i></span>Do-Dishes</li>
+		<li><span><i class="fa fa-trash"></i></span>Feed Hedwig</li>
+	</ul>
+</div>
+<script type="text/javascript" src="/static/todo.js"></script>
+</body>
+</html>
